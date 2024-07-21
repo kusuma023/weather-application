@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Weather-application</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+            <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+            <div class="card">
+                <div class="search">
+                    <div class="text-box"><input type="text" placeholder="Enter the city" name="city" id="search-bar"></div>
+                    <div class="search-icon"><img src="./images/search.png" alt="search-logo" height="20px" width="20px"></div>
+                </div>
+                <div class="error">Enter Valid City</div>
+                <div class="weather">
+                    <div class="weather-logo">
+                        <img src="./images/weather.png" alt="sun" height="110px" width="110px"/>
+                    </div>
+                    <div class="tempLoc-sec">
+                        <div class="temp">22°c</div>
+                        <div class="loc">Bangalore</div>
+                    </div>
+                    <div class="weather-report">
+                        <div>
+                            <img src="./images/humidity.png" alt="humidity" height="40px" width="40px">
+                            <div>Humidity</div>
+                            <div class="humidity">53%</div>
+                        </div>
+                        <div>
+                            <img src="./images/wind.png" alt="humidity" height="40px" width="40px">
+                            <div> Wind Speed</div>
+                            <div class="wind-speed">5.66 km/h </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="./script.js"></script>
+        </body>
+    </html>
